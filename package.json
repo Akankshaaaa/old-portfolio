@@ -1,0 +1,32 @@
+{
+  "name": "devfolio",
+  "version": "1.0.0",
+  "description": "A portfolio website built with three.js.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akankshaaaa/akankshaaaa.github.io.git"
+  },
+  "author": "Akanksha M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akankshaaaa/akankshaaaa.github.io/issues"
+  },
+  "homepage": "https://github.com/Akankshaaaa/akankshaaaa.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1"
+  },
+  "dependencies": {
+    "postcss": "^8.3.6"
+  }
+}
