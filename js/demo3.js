@@ -23,8 +23,11 @@ function createLandscape(params){
     sceneTextures();
     render();
 
+
     if(isMobile)
-      window.addEventListener("touchmove", onInputMove, {passive:false})
+      window.addEventListener("touchmove", function (e) {
+    e.preventDefault();
+    })
     else
       window.addEventListener("mousemove", onInputMove)
     
@@ -144,8 +147,8 @@ function createLandscape(params){
       x = e.clientX;
       y = e.clientY;
     }else{
-      x = e.changedTouches[0].clientX
-      y = e.changedTouches[0].clientY
+      //x = e.changedTouches[0].clientX
+      //y = e.changedTouches[0].clientY
     }
     
     mouse.x = x;
