@@ -1093,6 +1093,12 @@ a:focus {
 }
 
 @media screen and (max-width: 600px) {
+	
+  .content__title {
+    -webkit-text-stroke: 1px black; /* width and color */
+
+  }
+	
   .card {
     height: auto;
     width: fit-content;
@@ -1114,6 +1120,13 @@ a:focus {
     position: relative;
     bottom: 230px;
   }
+
+  #contact-info .links {
+    display: flex;
+    min-width: 80vw;
+    height: auto;
+    justify-content: space-between;
+}
 
 	
 }
