@@ -1107,13 +1107,13 @@ a:focus {
   }
 
   .skill_content {
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    transform:scale(0.5);
     position: relative;
-    size: 10vw;
-    height: auto;
+    bottom: 230px;
   }
 
-  .floating {
-    size: 10vw;
-  }
-
+	
 }
