@@ -6,6 +6,7 @@
 		<title>Akanksha Mhadolkar's Portfolio</title>
 		<meta name="description" content="A portfolio website built with three.js" />
 		<meta name="keywords" content="three.js, javascript, webgl, animation, landscape, interactive, portfolio" />
+		<meta name="viewport" content="user-scalable = yes">
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="am_mono.ico">
 		<link href="https://fonts.googleapis.com/css?family=Barlow:400,800" rel="stylesheet">
@@ -21,10 +22,8 @@
 	</head>
 	<body class="demo-3">
 		<main>
-			<div class="frame">
-				<a class="frame__mono" > <img src="img/am_mono.png" style="width: 50%;"/></a>
-			</div>
-			<div class="content">
+			<div class="content" style="height: 100vh; width: auto;">
+				<a class="frame__mono" > <img src="img/am_mono.png" /></a>
 				<canvas class="landscape"></canvas>
 				<script id="custom-vertex" type="x-shader/x-vertex">
 
@@ -311,15 +310,6 @@
 						      </div>
 						   </div>
 						</div>
-						<!--div class="flip">
-						    <div class="front" style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-						       <h1 class="text-shadow">MOUNTAIN</hi>
-						    </div>
-						    <div class="back">
-						       <h2>Angular</h2>
-						       <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
-						    </div>
-						</div-->
 					</section>
 					<section class="three">
 						<div class="macbook">
@@ -485,6 +475,8 @@
 					<section class="four">
 						<h2 class="content__title" >
 						Skills</h2>
+						<div class= "skill_content">
+
 						<div class="floating" id="floatpy">
 							<img src="img/python_logo.png" height="100vh">
 						</div>
@@ -509,6 +501,7 @@
 						<div class="floating" id="floata">
 							<img src="img/ai_logo.png" height="60vh">
 						</div>
+					</div>
 					</section>
 					<section class="five">
 						<a href="mailto:akankshamhadolkar@gmail.com">
