@@ -1,4 +1,4 @@
-# [akankshaaaa.github.io](https://akankshaaaa.github.com/)
+# [akankshaaaa.github.io](https://akankshaaaa.github.io/)
 A portfolio website built with three.js.
 
 ## Credits
